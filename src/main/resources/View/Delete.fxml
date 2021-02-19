@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Delete">
+   <children>
+      <Button fx:id="ButtonDelete" layoutX="204.0" layoutY="311.0" mnemonicParsing="false" text="Delete" />
+      <Label fx:id="LabelId" layoutX="167.0" layoutY="90.0" text="Id" />
+      <TextField fx:id="TextId" layoutX="198.0" layoutY="86.0" />
+      <Button fx:id="ButtonExit" layoutX="367.0" layoutY="311.0" mnemonicParsing="false" text="Exit" />
+   </children>
+</AnchorPane>

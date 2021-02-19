@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.Controller.ControllerCreate">
+   <children>
+      <Label fx:id="CreateId" layoutX="166.0" layoutY="76.0" text="Id" />
+      <Label fx:id="CreateVideo_card" layoutX="120.0" layoutY="107.0" text="Video_card" />
+      <Label fx:id="CreateHDD" layoutX="158.0" layoutY="150.0" text="HDD" />
+      <Label fx:id="CreatePower_supply" layoutX="113.0" layoutY="183.0" text="Power_supply" />
+      <Label fx:id="CreateRAM" layoutX="158.0" layoutY="225.0" text="RAM" />
+      <TextField fx:id="CreateText1" layoutX="210.0" layoutY="72.0" />
+      <TextField fx:id="CreateText2" layoutX="210.0" layoutY="112.0" />
+      <TextField fx:id="CreateText3" layoutX="210.0" layoutY="146.0" />
+      <TextField fx:id="CreateText4" layoutX="210.0" layoutY="179.0" />
+      <TextField fx:id="CreateText5" layoutX="210.0" layoutY="221.0" />
+      <Button fx:id="CreateButton3" layoutX="326.0" layoutY="313.0" mnemonicParsing="false" text="Exit" />
+      <Button fx:id="CreateButton1" layoutX="262.0" layoutY="313.0" mnemonicParsing="false" text="Create" />
+   </children>
+</AnchorPane>
